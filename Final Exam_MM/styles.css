@@ -1,0 +1,67 @@
+p , h1{
+   color: red;
+font-size: 40pt;;
+}
+
+html {
+   
+background-color: bisque;
+}
+
+body {
+    width: 75%;
+    
+}
+
+#banner {
+   
+    height: 20vh;
+    
+    border: black 5px solid;
+    background-color: ivory;
+
+    display: flex;
+    margin-left: 150px;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+   width: 95%;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #9cddd0;
+    width: 20%;
+    height: 40px;
+    width: 140px;
+    border: black 2 px solid;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+input {
+    width: 20%;
+    line-height: 2em  ;
+    margin-bottom: 1%;
+    border: black 5px solid;
+    font-size: x-large;
+}
+
+#card {
+    width: 95%;
+    margin-left: 150px;
+    border: black 5px solid;
+    text-align: center;
+    background-size: 100%;
+    font-weight: bolder;
+    text-shadow: 0px 0px 3px #ffffff, -1px -1px #ffffff, 1px 1px #ffffff;
+    background-image: url("world.jpg");
+
+    height: 70vh;
+}
+
+sub {
+    font-size: 0.5em;
+    color: #000000;
+}
